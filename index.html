@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./front/logo.png">
+    <title>spotify</title>
+</head>
+<body>
+    <div class="main">
+        <div class="main-sidebar">
+            <div class="nav-option">
+                <div class="nav-option1" style="opacity: 1;">
+                    <i class="fa fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option1">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="libraryoption">
+                    <div class="libraryicon nav-option1">
+                        <img src="/front/library_icon.png" alt="library">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="optionlib">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <div class="p1"><p>Playlist</p></div>
+                        <div class="icon"> 
+                            <div class="iconp1">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <div class="iconp2"> <a href="#">Recent</a>
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="playlist">
+                                <img src="/front/download.jpeg" alt="">
+                                <a href="#">Liked songs</a>
+                            </div>
+                            <div class="myplaylist">
+                                <div class="iconmy">
+                                    <i class="fa-solid fa-music"></i>
+                                </div>
+                                <a href="#">My Playlist #1</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+       
+        
+    </div>
+    <div class="main-section">
+        <div class="stickybar">
+            <img class="bar" src="/front/backward_icon.png" alt="backward image">
+            <img class="bar" src="/front/forward_icon.png" alt="forward image">
+            <button class="btn2">Explore Premium</button>
+            <button class="btnbell"><i class="fa-regular fa-bell"></i></button>
+            <button class="btnbell"><i class="fa-solid fa-people-group"></i></button>
+            <button class="btnbell"><i class="fa-solid fa-user"></i></button>
+        </div>
+        <div class="songs">
+            <p>Recently Played</p>
+            <div class="boximg">
+                <img  class="imagesquare" src="/front/card1img.jpeg" alt="top 50">
+                <p>TOP 50 - Global</p>
+                <p id="txtsmll">your daily update of <br>
+                    the most played trac...
+                </p>
+            </div>
+            <div class="seeall">
+                <p>Spotify original & exclusive podcasts</p>
+                <a href="#">see all</a>
+            </div>
+            <div class="cards-container">
+                <div class="imgg">
+                    <img class="imagesquare" src="/front/card2img.jpeg" alt="1img">
+                    <p>MAHIYE JIHNA<br> SOHNA</p>
+                </div>
+                <div class="imgg">
+                    <img class="imagesquare" src="/front/card3img.jpeg" alt="1img">
+                    <p>MERE PAAS TUM HO</p>
+                </div>
+                <div class="imgg">
+                    <img class="imagesquare" src="/front/card4img.jpeg" alt="1img">
+                    <p>ALTER EGO NAA REDDY</p>
+                </div>
+            </div>
+            <p>Feature charts</p>
+            <div class="boximg">
+                <img  class="imagesquare" src="/front/card5img.jpeg" alt="top 50">
+                <p>TOP songs global</p>
+                <p id="txtsmll">your daily update of <br>
+                    the most played trac...
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="musicplayer">
+        <div class="album">
+            
+            <img src="/front/card2img.jpeg" alt="imgsong">
+            <p>Mahiye jinna sonna</p> 
+            <i class="fa-solid fa-circle-plus"></i>
+        </div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="front/player_icon1.png" alt="icon1" class="player-icon">
+                <img src="front/player_icon2.png" alt="icon2" class="player-icon">
+                <img src="front/player_icon3.png" alt="icon3" class="player-icon" id="play">
+                <img src="front/player_icon4.png" alt="icon4" class="player-icon">
+                <img src="front/player_icon5.png" alt="icon5" class="player-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="1" style="accent-color:#ffffff; height: 5px;" >
+                <span class="total-time">3:44</span>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="/front/Screenshot_2024-08-12_104326-removebg-preview.png" alt="playing view" class="playingview">
+            <img src="/front/Screenshot_2024-08-12_104313-removebg-preview.png" alt="microphone" class="microphone">
+            <img src="/front/Screenshot_2024-08-12_104356-removebg-preview.png" alt="switch" class="switch">
+            <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+            <input type="range" min="0" max="100" class="progressbar" step="1" style="accent-color:#ffffff; height: 5px;">
+            <i class="fa-solid fa-down-left-and-up-right-to-center" style="color: #ffffff;"></i>
+        </div>    
+    </div>
+
+</body>
+</html>
