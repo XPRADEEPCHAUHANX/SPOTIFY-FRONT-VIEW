@@ -441,6 +441,10 @@ a{
 }
 #made{
     background-color: rgba(128, 128, 128, 0.374);
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .upper{
     background-color: rgba(128, 128, 128, 0);
